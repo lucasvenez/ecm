@@ -1,0 +1,1 @@
+r.squared <- function(y, yhat) 1 - (sum((y-yhat)^2)/sum((y-mean(y))^2))
